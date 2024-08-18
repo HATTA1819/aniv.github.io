@@ -1,0 +1,12 @@
+package: 2
+price: Rp.800.000
+duration: 2 Days
+details: Museum Nasional, Hotel
+nama: Luthfi
+nomor: 085282754652package: 2
+price: Rp.800.000
+duration: 2 Days
+details: Museum Nasional, Hotel
+nama: Luthfi
+nomor: 085282754652
+

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans';
+    background-color: #ffff;
+}
+
+header {
+    background: url(c.jpg) center/cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 4rem 0;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    background-color: #fdfdfd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 4rem 0;
+    position: relative;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+
+.menu li a:hover {
+    color: rgb(0, 37, 80);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.museum {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.museum h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.museum-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transfrom 0.31 ease;
+}
+
+.museum-item:hover {
+    transform: scale(1.1);
+}
+
+.museum-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.museum-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.museum-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.museum-item button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.museum-item button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.kontak{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.kontak h2{
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.kontak-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.kontak-info{
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.kontak-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    background-color: deepskyblue;
+    color: white;
+    padding: 1rem 0;
+}
+
+.user-details{
+    font-size: 1rem;
+    margin: 0;
+}
